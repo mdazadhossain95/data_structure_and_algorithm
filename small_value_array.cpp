@@ -12,6 +12,8 @@ int main()
         cin>>a[i];
     }
 
+    // alternative
+    // int smallest = a[0];
     int smallest = INT_MAX;
     for(int i=0; i<n; i++){
         if(a[i]<smallest){
